@@ -50,7 +50,8 @@
       </div>
       </div>
       
-       </div>
+    <!--  <%= render 'app/view/layouts/_nav' %>-->
+    </div>
 <div class="container">
 <%= yield %>
       <footer>

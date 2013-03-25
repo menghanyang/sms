@@ -62,7 +62,7 @@
           <div class="control-group">
             <label class="control-label" for="optionsCheckbox">定时发送</label>
             <div class="controls">
-               <input type="checkbox" id="confirm_submit_message" value="option1">
+               <input type="checkbox" id="optionsCheckbox" value="option1">
                <input type="text" id="sendtime" value="yyyy-mm-dd hh:mm"  
                                                     onfocus="
                                                         if (this.value == 'yyyy-mm-dd hh:mm') {

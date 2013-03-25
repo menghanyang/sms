@@ -1,0 +1,27 @@
+<h1>Listing sends</h1>
+
+<table>
+  <tr>
+    <th>Message</th>
+    <th>Telnum</th>
+    <th>Sendtime</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @sends.each do |send| %>
+  <tr>
+    <td><%= send.message %></td>
+    <td><%= send.telnum %></td>
+    <td><%= send.sendtime %></td>
+    <td><%= link_to 'Show', send %></td>
+    <td><%= link_to 'Edit', edit_send_path(send) %></td>
+    <td><%= link_to 'Destroy', send, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Send', new_send_path %>

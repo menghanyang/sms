@@ -1,4 +1,7 @@
 Sms::Application.routes.draw do
+  resources :sends
+
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

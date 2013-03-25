@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  message: MyText
+  telnum: MyText
+  sendtime: 2013-03-25 11:14:38
+
+two:
+  message: MyText
+  telnum: MyText
+  sendtime: 2013-03-25 11:14:38
